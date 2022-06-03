@@ -1564,7 +1564,7 @@ Features Section CSS
   overflow: hidden;
 }
 
-.card-container{
+.align-items-center.card-container{
   position: relative;
   background: rgb(246, 245, 251);
   height: 300px;
@@ -1584,7 +1584,7 @@ Features Section CSS
   transform: rotateY(0deg);
 }
 
-.card {
+.rounded.card {
   position: absolute;
   transition: all 0.9s;
 }
