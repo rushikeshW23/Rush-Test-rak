@@ -59,7 +59,7 @@ class NavbarTwo extends Component {
 
         return (
             <>
-                <div id="navbar" className="navbar-area navbar-two">
+                <div id="navbar" className="navbar-area navbar-two navbar-three">
                     <div className="neemo-nav">
                         <div className="container">
                             <nav className="navbar navbar-expand-md navbar-light">

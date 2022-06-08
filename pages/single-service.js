@@ -10,13 +10,6 @@ class SingleService extends Component {
             <>
                 <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Service Details" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Service Details" 
-                    breadcrumbUrl="/" 
-                />
-
                 <SingleServiceContent />
                 
                 <Footer />

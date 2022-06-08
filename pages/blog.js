@@ -10,12 +10,12 @@ class Blog extends Component {
             <>
                 <NavbarTwo />
 
-                <PageBanner 
+                {/* <PageBanner 
                     pageTitle="Blog" 
                     breadcrumbTextOne="Home" 
                     breadcrumbTextTwo="Blog" 
                     breadcrumbUrl="/" 
-                />
+                /> */}
 
                 <BlogCardContent />
                 

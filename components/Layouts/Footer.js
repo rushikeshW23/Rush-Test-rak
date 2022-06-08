@@ -89,17 +89,17 @@ class Footer extends Component {
                                     <ul className="footer-quick-links">
                                         <li>
                                             <Link href="/single-service">
-                                                <a>SEO Marketing</a>
+                                                <a>iOs Developemnt</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/single-service">
-                                                <a>SEO Services</a>
+                                                <a>Android Developemnt</a>
                                             </Link>
                                         </li>
                                         <li>
                                             <Link href="/single-service">
-                                                <a>Services</a>
+                                                <a>Web Developemnt</a>
                                             </Link>
                                         </li>
                                         <li>

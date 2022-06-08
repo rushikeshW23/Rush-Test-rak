@@ -4,6 +4,7 @@ import PageBanner from '../components/Common/PageBanner';
 import ContactForm from '../components/Contact/ContactForm';
 import SubscribeStyleTwo from '../components/Common/SubscribeStyleTwo';
 import Footer from '../components/Layouts/Footer';
+import WhyToContact from '../components/Contact/WhyToContact';
 
 class Contact extends Component {
     render() {
@@ -11,12 +12,7 @@ class Contact extends Component {
             <>
                 <NavbarTwo />
 
-                <PageBanner 
-                    pageTitle="Contact" 
-                    breadcrumbTextOne="Home" 
-                    breadcrumbTextTwo="Contact Us" 
-                    breadcrumbUrl="/" 
-                />
+                <WhyToContact />
 
                 <ContactForm />
 

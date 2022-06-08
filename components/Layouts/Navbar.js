@@ -296,7 +296,7 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="/single-service" activeClassName="active">
+                                                    <Link href="/ml-ai-service" activeClassName="active">
                                                         <a className="nav-link">Emerging Technologies</a>
                                                     </Link>
                                                     <ul className="dropdown-menu">
@@ -365,7 +365,7 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="/MediaEvents" activeClassName="active">
+                                                    <Link href="/media" activeClassName="active">
                                                         <a className="nav-link">Media & Events</a>
                                                     </Link>
                                                 </li>
@@ -413,7 +413,7 @@ class Navbar extends Component {
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="/support" activeClassName="active">
+                                                    <Link href="/project-status" activeClassName="active">
                                                         <a className="nav-link">Project Status</a>
                                                     </Link>
                                                 </li>

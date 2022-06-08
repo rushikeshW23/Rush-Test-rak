@@ -25,8 +25,8 @@ class ContactInfo extends Component {
                             </div>
                             <div className="content">
                                 <h4>E-mail</h4>
-                                <p>hello@neemo.com</p>
-                                <p>support@neemo.com</p>
+                                <p>Agumentik@gmail.com</p>
+                                <p>supportAgumentik.com</p>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,8 @@ class ContactInfo extends Component {
                             </div>
                             <div className="content">
                                 <h4>Location</h4>
-                                <p>123, Western Road, Melbourne <br /> Australia</p>
+                                <p>INNOVATION VALLEY Hill No. 3
+                                <br />IT-Sez , Rushikonda </p>
                             </div>
                         </div>
                     </div>

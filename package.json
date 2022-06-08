@@ -12,6 +12,7 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@emailjs/browser": "^3.6.2",
         "@emotion/react": "^11.9.0",
         "@emotion/styled": "^11.8.1",
         "@mui/material": "^5.8.2",
