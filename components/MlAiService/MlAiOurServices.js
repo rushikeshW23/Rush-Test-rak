@@ -3,6 +3,7 @@ import Create from './Create';
 import Connect from './Connect';
 import Secure from './Secure';
 import Readi from './Readi';
+import Grow  from './Grow';
 
 class MlAiOurService extends Component {
     render() {
@@ -13,32 +14,39 @@ class MlAiOurService extends Component {
                         <h3>Our Services</h3>
                     </div>
                     <div>
-                        <ul className="nav justify-content-center">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#create">Create</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#connect">Connect</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#secure">Secure</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#secure">Readi</a>
-                            </li>
-                        </ul>
-                        <div id="create">
-                            <Create/>
-                        </div>
-                        <div id='connect'>
-                            <Connect/>
-                        </div>
-                        <div id='secure'>
-                            <Secure/>
-                        </div>
-                        <div id='readi'>
-                            <Readi/>
-                        </div>
+                    
+                    <ul className="nav justify-content-center nav-ml-ai-service">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#create">Create</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#connect">Connect</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#secure">Secure</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#grow">Grow</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#secure">Readi</a>
+                        </li>
+                    </ul>
+                    <div id="create">
+                        <Create/>
+                    </div>
+                    <div id='connect'>
+                        <Connect/>
+                    </div>
+                    <div id='secure'>
+                        <Secure/>
+                    </div>
+                    <div id='grow'>
+                        <Grow/>
+                    </div>
+                    <div id='readi'>
+                        <Readi/>
+                    </div>
                     </div>
                 </div>
             </section>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500&family=Poppins:wght@300;400;500;600&display=swap');
+
 /*
 @File: Neemo Template Styles
 
@@ -25,7 +27,8 @@ This files table contents are outlined below >>>>>
 ** - Subscribe Area CSS
 ** - Footer Section CSS
 ** - Go Top Button CSS
-*/
+** - MlAi Section
+*/ 
 /* Default CSS
 =================================================*/
 
@@ -6258,4 +6261,85 @@ Go Top CSS
   opacity: 1;
   visibility: visible;
 }
+
+/*================================================
+MlAi Service 
+=================================================*/
+
+.nav-ml-ai-service{
+  padding: 0.5rem;
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: auto;
+}
+
+.mlai-area-content span {
+  font-size: 14px;
+  color: #e3202d;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 5px;
+  font-family: Orbitron, sans-serif;
+}
+
+.mlai-area-content h3 {
+  font-size: 38px;
+  color: #202647;
+  font-weight: bold;
+  margin: 0 0 25px;
+  position: relative;
+  padding-bottom: 25px;
+  font-family: Orbitron, sans-serif;
+}
+
+.mlai-area-content h3::before {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 80px;
+  background-color: #fab4a2;
+  bottom: 0;
+  left: 0;
+}
+
+.mlai-area-content h3::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 32px;
+  background-color: #ff724e;
+  bottom: 0;
+  margin: 0 auto 0;
+  left: 95px;
+}
+
+.mlai-area-content p {
+  margin: 15px 0 0 0;
+}
+
+.mlai-area-content strong {
+  color: #6a6c72;
+  font-weight: 500;
+}
+
+.ml-ai-image{
+  /* max-width: 65%;  */
+}
+
+.ml-ai-social .team-item-area .team-content {
+  text-align: left;
+  padding: 25px 15px;
+}
+
+.ml-ai-social .team-item-area .team-content .team-social li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.ml-ai-banner-btn {
+  margin-top: 1rem;
+}
+
 /*# sourceMappingURL=style.css.map */
