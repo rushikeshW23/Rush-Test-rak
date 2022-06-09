@@ -313,7 +313,7 @@ class Navbar extends Component {
                                                         </li>
 
                                                         <li className="nav-item">
-                                                            <Link href="/services" activeClassName="active">
+                                                            <Link href="/arvr" activeClassName="active">
                                                                 <a className="nav-link">AR & VR</a>
                                                             </Link>
                                                         </li>

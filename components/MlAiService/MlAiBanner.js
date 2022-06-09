@@ -21,6 +21,7 @@ class MlAiBanner extends Component {
                                 </Link>
                             </div>
                         </div>
+                            <a href='#contact' className='scroll__down'>Scroll Down</a>
 
                         <div className="col-lg-6 col-md-12">
                             <div className="ml-ai-image">
