@@ -310,7 +310,7 @@ class NavbarTwo extends Component {
                                                         </li>
 
                                                         <li className="nav-item">
-                                                            <Link href="/services" activeClassName="active">
+                                                            <Link href="/arvr2" activeClassName="active">
                                                                 <a className="nav-link">AR & VR</a>
                                                             </Link>
                                                         </li>

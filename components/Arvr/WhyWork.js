@@ -10,7 +10,7 @@ class WhyWork extends Component {
                     <h1 style={{color:"white"}} >Why Work With us</h1>
                     <p>publishing and graphic design, Lorem ipsum is a placeholder text commonly used to </p>
                     <p>demonstrate the visual form of a document or a typeface without relying on meaningful</p>
-                    <div style={{display: "flex", justifyContent: "center", alignContent: "center", padding: "1rem" }} >
+                    <div style={{display: "flex", justifyContent: "center", alignContent: "center", padding: "1rem" , flexWrap: "wrap" }} >
                        <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
                             <div style={{margin: "20px"}}>
                                 <div class="hexagon">

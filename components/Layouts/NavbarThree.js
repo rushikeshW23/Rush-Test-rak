@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
 import SidebarModal from './SidebarModal';
 
-class NavbarTwo extends Component {
+class NavbarThree extends Component {
 
     // Sidebar Modal
     state = {
@@ -310,7 +310,7 @@ class NavbarTwo extends Component {
                                                         </li>
 
                                                         <li className="nav-item">
-                                                            <Link href="/services" activeClassName="active">
+                                                            <Link href="/arvr2" activeClassName="active">
                                                                 <a className="nav-link">AR & VR</a>
                                                             </Link>
                                                         </li>
@@ -525,4 +525,4 @@ class NavbarTwo extends Component {
     }
 }
 
-export default NavbarTwo;
+export default NavbarThree;
