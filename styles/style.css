@@ -6296,8 +6296,7 @@ MlAi Service
 }
 
 .ml-ai-navlink {
-  color: #e3202d;
-  
+  color: #e3202d !important ;
 }
 
 .mlai-area-content span {
