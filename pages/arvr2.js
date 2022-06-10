@@ -7,7 +7,6 @@ import ContactUs from '../components/Arvr/Contactus';
 import LearnMore from '../components/Arvr/LearnMore';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import ArvrBanner2 from '../components/Arvr/ArvrBanner2';
-import WhyWork2 from '../components/Arvr/WhyWork2'
 
 class Arvr2 extends Component {
     
