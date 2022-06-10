@@ -27,16 +27,13 @@ class MlAiBanner extends Component {
                                 </Link>
                             </div>
                         </div>
-                            <a href='#contact' className='scroll__down'>Scroll Down</a>
-
                         <div className="col-lg-6 col-md-12">
                             <div className="ml-ai-image">
                                 <img src="/images/ml-ai-banner.jpeg" alt="image" />
                             </div>
                         </div>
-                        <div id="section09" class="demo">
-                        {/* <p>Scroll Down Button #9</p> */}
-                        <a href="#connect"><span></span>scroll</a>
+                        <div id="section09" className="demo">
+                        <a href="#connect" className='scroll__down'><span></span>scroll</a>
                     </div>
                     </div>
                     <div className='ml-ai-social'>
@@ -67,7 +64,7 @@ class MlAiBanner extends Component {
                                          <strong>-----------------------</strong>
                                     </li>
                                     <li>
-                                         <strong>  FOLLOW US</strong>
+                                         <strong className='mlai-follow-us' >  FOLLOW US</strong>
                                     </li>
                                 </ul>
                             </div>

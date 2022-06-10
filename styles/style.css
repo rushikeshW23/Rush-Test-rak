@@ -6409,6 +6409,18 @@ MlAi Service
   transform: rotate(90deg);
 }
 
+@media only screen and (max-width: 600px) {
+  .header__socials {
+    display: none;
+  }
+
+  .mlai-follow-us {
+    display: block;
+    padding-top: 1rem;
+  }
+
+}
+
 .download-doc {
   padding: 3rem;
   text-align: center;
@@ -6426,7 +6438,7 @@ MlAi Service
   display: inline-block;
   -webkit-transform: translate(0, -50%);
   transform: translate(0, -50%);
-  color: #e3202d;
+  color: black;
   /* font : normal 400 20px/1 'Josefin Sans', sans-serif; */
   /* letter-spacing: .1em; */
   text-decoration: none;
@@ -6487,6 +6499,10 @@ MlAi Service
 
 .header__socials div {
   transform: rotate(90deg);
+}
+
+.header__socials a {
+  color: black;
 }
 
 /* .header__socials::after{
