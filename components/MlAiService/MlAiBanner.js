@@ -23,7 +23,7 @@ class MlAiBanner extends Component {
                             </div>
                             <div className='banner-btn ml-ai-banner-btn'>
                                 <Link href="/ml-ai-service">
-                                    <a className="btn default-btn-one">More About Us</a>
+                                    <a className="default-btn-one">More About Us</a>
                                 </Link>
                             </div>
                         </div>
@@ -61,7 +61,8 @@ class MlAiBanner extends Component {
                                         </a>
                                     </li>
                                     <li>
-                                         <strong>-----------------------</strong>
+                                         {/* <strong>-----------------------</strong> */}
+                                         <img src='/images/arrow.jpg' alt='image' />
                                     </li>
                                     <li>
                                          <strong className='mlai-follow-us' >  FOLLOW US</strong>

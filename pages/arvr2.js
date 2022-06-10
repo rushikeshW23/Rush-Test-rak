@@ -25,11 +25,11 @@ class Arvr2 extends Component {
 
         return (
             <>
-                <NavbarTwo  />
+                <NavbarTwo style={navStyle}  />
 
-                <ArvrBanner2 />
+                <ArvrBanner2 style={navStyle} />
 
-                <WhyWork style={divStyle} />
+                <WhyWork />
 
                 <LearnMore />
 

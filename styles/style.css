@@ -6536,8 +6536,36 @@ ARVR Banner
 
 .arvr-banner-section {
   height: 100%;
+  width: 100%;
   /* background-image: url('/images/arvrbanner.jpg'); */
+  /* box-sizing: border-box;
+  min-height: 100vh;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  text-align: center;
+  text-transform: uppercase; */
 }
+
+/* .arvr-banner-section:before {
+  background: 50% 50% / cover;
+} */
+
+/* .arvr-banner-section::before {
+  content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-image: url('/images/arvrbanner.jpg');
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh; 
+} */
 
 .arvr {
   background-image: url('/images/arvrbanner.jpg');
