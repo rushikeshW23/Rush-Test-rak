@@ -26,8 +26,8 @@ class WhyWork extends Component {
                                 </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
-                                <strong  >Massive Scale</strong>
-                                <div style={{textAlign: "center"}} >In publishing and graphic design</div>
+                                <strong style={{color: "white" }}  >Massive Scale</strong>
+                                <div style={{textAlign: "center" , color: "white"}} >In publishing and graphic design</div>
                             </div>
                         </div>
                         <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
@@ -43,8 +43,8 @@ class WhyWork extends Component {
                                 </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
-                                <strong  >Massive Scale</strong>
-                                <div style={{textAlign: "center"}} >
+                                <strong style={{color: "white" }}   >Massive Scale</strong>
+                                <div style={{textAlign: "center" , color: "white"}} >
                                     In publishing and graphic design
                                 </div>
                         </div>
@@ -63,8 +63,8 @@ class WhyWork extends Component {
                             </div>
 
                             <div style={{paddingTop: "2rem"}}>
-                                <strong  >Massive Scale</strong>
-                                <div style={{textAlign: "center"}} >In publishing and graphic design</div>
+                                <strong  style={{color: "white" }}  >Massive Scale</strong>
+                                <div style={{textAlign: "center" , color: "white"}} >In publishing and graphic design</div>
                             </div>
                         </div>
                         <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
@@ -80,8 +80,8 @@ class WhyWork extends Component {
                             </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
-                                <strong  >Massive Scale</strong>
-                                <div style={{textAlign: "center"}} >In publishing and graphic design</div>
+                                <strong style={{color: "white" }}  >Massive Scale</strong>
+                                <div style={{textAlign: "center" ,color: "white"}} >In publishing and graphic design</div>
                             </div>
                         </div>
                     </div>
