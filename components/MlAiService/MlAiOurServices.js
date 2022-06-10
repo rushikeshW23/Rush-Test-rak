@@ -14,22 +14,22 @@ class MlAiOurService extends Component {
                         <h3>Our Services</h3>
                     </div>
                     <div>
-                        <div>
+                        <div className='nav-ml-ai-div' >
                             <ul className="nav justify-content-center nav-ml-ai-service">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#create">Create</a>
+                                    <a className="nav-link active ml-ai-navlink" aria-current="page" href="#create">Create</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#connect">Connect</a>
+                                    <a className="nav-link ml-ai-navlink" href="#connect">Connect</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#secure">Secure</a>
+                                    <a className="nav-link ml-ai-navlink" href="#secure">Secure</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#grow">Grow</a>
+                                    <a className="nav-link ml-ai-navlink" href="#grow">Grow</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#secure">Readi</a>
+                                    <a className="nav-link ml-ai-navlink" href="#secure">Readi</a>
                                 </li>
                             </ul>
                         </div>

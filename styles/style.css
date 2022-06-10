@@ -1060,6 +1060,15 @@ Navbar Area Two CSS
   transition: 0.5s;
 }
 
+.navbar-four{
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: relative;
+}
+
+.nav-link-arvr{
+  color: white;
+}
 
 
 /*================================================
@@ -4731,8 +4740,8 @@ blockquote::after, .blockquote::after {
   margin-top: 10px;
 }
 
-.comments-area .comment-respond .required {
-  color: red;
+.comments-area .comment-respond .requ #e3202d {
+  color: #e3202d;
 }
 
 .comments-area .comment-respond .comment-form-comment {
@@ -6271,8 +6280,24 @@ MlAi Service
 .nav-ml-ai-service{
   padding: 0.5rem;
   border: 1px solid grey;
-  border-radius: 20px;
-  width: auto;
+  border-radius: 50px;
+  max-width: 500px;
+}
+
+.nav-ml-ai-service li a {
+  font-family: Orbitron, sans-serif;
+}
+
+.nav-ml-ai-div{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ml-ai-navlink {
+  color: #e3202d;
+  
 }
 
 .mlai-area-content span {
@@ -6363,25 +6388,139 @@ MlAi Service
   cursor: pointer;
 }
 
+.header__socials {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  /* gap: 0.8rem; */
+  position: absolute;
+  left: 0;
+  bottom: 15rem;
+  transform: rotate(90deg);
+}
+
+.header__socials::after{
+  content: '';
+  display: flex;
+  flex-direction: column;
+  width: 1px;
+  height: 2rem;
+  background: #e3202d;
+  transform: rotate(90deg);
+}
+
 .download-doc {
   padding: 3rem;
   text-align: center;
   display: block;
-  border: 2px solid red;
+  border: 2px solid #e3202d;
   border-radius: 5px;
   margin-bottom: 2rem;
 }
+
+.demo a {
+  position: absolute;
+  bottom: 0px;
+  left: 48%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #e3202d;
+  /* font : normal 400 20px/1 'Josefin Sans', sans-serif; */
+  /* letter-spacing: .1em; */
+  text-decoration: none;
+  transition: opacity .3s;
+}
+.demo a:hover {
+  opacity: .5;
+}
+
+#section09 a {
+  padding-top: 80px;
+}
+#section09 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 30px;
+  height: 50px;
+  margin-left: -15px;
+  border: 2px solid black;
+  border-radius: 50px;
+  box-sizing: border-box;
+}
+#section09 a span::before {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  content: '';
+  width: 6px;
+  height: 6px;
+  margin-left: -3px;
+  background-color:black;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+#section09 a span::after {
+  position: absolute;
+  bottom: -18px;
+  left: 50%;
+  width: 18px;
+  height: 18px;
+  content: '';
+  margin-left: -9px;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+
+.scroll-learn-more {
+  font-size: x-small;
+}
+
+.header__socials__scroll p {
+  margin: 0px;
+}
+
+.header__socials div {
+  transform: rotate(90deg);
+}
+
+/* .header__socials::after{
+  content: '';
+  width: 1px;
+  height: 2rem;
+  background: #e3202d;
+} */
 
 /*================================================
 ARVR Banner
 =================================================*/
 
 .arvr-banner {
-  height: 80%;
-  /* width: 100vw; */
+  height: 100vh;
+  width: 100vw;
   justify-content: center;
   text-align: center;
   color: #fff;
+}
+
+.arvr-banner-top {
+  text-align: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.arvr-banner-top h1 p {
+  padding: 3rem;
+}
+
+.arvr-banner-section {
+  height: 100%;
+  /* background-image: url('/images/arvrbanner.jpg'); */
 }
 
 .arvr {
@@ -6416,6 +6555,10 @@ ARVR Banner
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.whywork-container h1 {
+  font-family:Montserrat, sans-serif;
 }
 
 .hexagon {
@@ -6515,6 +6658,15 @@ ARVR Banner
   border-radius: 50px;
   border: 2px solic white;
   background-color: grey;
+}
+
+.learn-more-icon-content-h1 {
+  color: #e3202d;
+  padding-top: 1rem;
+}
+
+.learn-more-icon-content-p {
+  color: white;
 }
 
 .fa-users {

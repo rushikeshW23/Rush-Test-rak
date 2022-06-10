@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
 import SidebarModal from './SidebarModal';
 
-class Navbar extends Component {
+class NavbarTwo extends Component {
 
     // Sidebar Modal
     state = {
@@ -57,9 +57,13 @@ class Navbar extends Component {
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
+        const navLinkArvr = {
+            color: "white"
+        }
+
         return (
             <>
-                <div id="navbar" className="navbar-area">
+                <div id="navbar" className="navbar-area navbar-four">
                     <div className="neemo-nav">
                         <div className="container">
                             <nav className="navbar navbar-expand-md navbar-light">
@@ -87,59 +91,42 @@ class Navbar extends Component {
                                 <div className={classOne} id="navbarSupportedContent">
                                     <ul className="navbar-nav">
                                         <li className="nav-item">
-                                            <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            <Link href="/">
+                                                <a className="nav-link" style={navLinkArvr} > 
+                                                {/* onClick={e => e.preventDefault()} */}
                                                     Home 
                                                     {/* <i className="fa fa-plus"></i> */}
                                                 </a>
                                             </Link>
-
-                                            {/* <ul className="dropdown-menu">
-                                                <li className="nav-item">
-                                                    <Link href="/" activeClassName="active">
-                                                        <a className="nav-link">Home Demo - 1</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/index2" activeClassName="active">
-                                                        <a className="nav-link">Home Demo - 2</a>
-                                                    </Link>
-                                                </li>
-                                                <li className="nav-item">
-                                                    <Link href="/index3" activeClassName="active">
-                                                        <a className="nav-link">Home Demo - 3</a>
-                                                    </Link>
-                                                </li>
-                                            </ul> */}
                                         </li>
 
                                         <li className="nav-item">
                                             <Link href="/about-us" activeClassName="active">
-                                                <a className="nav-link">About us <i class="fa fa-angle-down"></i> </a>
+                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>About us <i class="fa fa-angle-down"></i> </a>
                                             </Link>
                                             
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/about-us" activeClassName="active">
-                                                        <a className="nav-link">About Company</a>
+                                                        <a className="nav-link nav-link-arvr " style={navLinkArvr}>About Company</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/Gallery" activeClassName="active">
-                                                        <a className="nav-link">Gallery</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Gallery</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/Product" activeClassName="active">
-                                                        <a className="nav-link">Products</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Products</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/coming-soon" activeClassName="active">
-                                                        <a className="nav-link">Careers</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Careers</a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -166,56 +153,53 @@ class Navbar extends Component {
  
                                         <li className="nav-item">
                                             <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                <a className="nav-link nav-link-arvr" style={navLinkArvr} onClick={e => e.preventDefault()}>
                                                     Services <i class="fa fa-angle-down"></i>
                                                 </a>
                                             </Link>
 
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
-                                                    <Link href="/service-details" activeClassName="active">
-                                                        <a className="nav-link">Web Developement</a>
+                                                    <Link href="/service-details" style={navLinkArvr} activeClassName="active">
+                                                        <a className="nav-link nav-link-arvr">Web Developement</a>
                                                     </Link>
 
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Static Website</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Static Website</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Dynamic Website</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Dynamic Website</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Landing Page</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Landing Page</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
-
                                                 </li>
-
-                                                
 
                                                 <li className="nav-item">
                                                     <Link href="/single-service" activeClassName="active">
-                                                        <a className="nav-link">Ecommerce Developement</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Ecommerce Developement</a>
                                                     </Link>
 
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Single Vendor</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Single Vendor</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Multivendor</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Multivendor</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
@@ -224,25 +208,25 @@ class Navbar extends Component {
 
                                                 <li className="nav-item">
                                                     <Link href="/single-service" activeClassName="active">
-                                                        <a className="nav-link">Mobile App Developement</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Mobile App Developement</a>
                                                     </Link>
 
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Android App Development</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Android App Development</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">IOS App Development</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>IOS App Development</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Cross Platform Development</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Cross Platform Development</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
@@ -251,70 +235,69 @@ class Navbar extends Component {
 
                                                 <li className="nav-item">
                                                     <Link href="/single-service" activeClassName="active">
-                                                        <a className="nav-link">Software Developement</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Software Developement</a>
                                                     </Link>
 
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Customised Software</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Customised Software</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">ERP Software</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>ERP Software</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">SaaS Software</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>SaaS Software</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
-
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/single-service" activeClassName="active">
-                                                        <a className="nav-link">UI/UX Designing</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>UI/UX Designing</a>
                                                     </Link>
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Graphic Designing</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Graphic Designing</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">UI/UX Designing</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>UI/UX Designing</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="/ml-ai-service" activeClassName="active">
-                                                        <a className="nav-link">Emerging Technologies</a>
+                                                    <Link href="/single-service" activeClassName="active">
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Emerging Technologies</a>
                                                     </Link>
                                                     <ul className="dropdown-menu">
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Artificial Intelligence</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Artificial Intelligence</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
                                                             <Link href="/services" activeClassName="active">
-                                                                <a className="nav-link">Machine Learning</a>
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>Machine Learning</a>
                                                             </Link>
                                                         </li>
 
                                                         <li className="nav-item">
-                                                            <Link href="/arvr2" activeClassName="active">
-                                                                <a className="nav-link">AR & VR</a>
+                                                            <Link href="/services" activeClassName="active">
+                                                                <a className="nav-link nav-link-arvr" style={navLinkArvr}>AR & VR</a>
                                                             </Link>
                                                         </li>
                                                     </ul>
@@ -324,7 +307,7 @@ class Navbar extends Component {
 
                                         <li className="nav-item">
                                             <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                <a className="nav-link nav-link-arvr" style={navLinkArvr} onClick={e => e.preventDefault()}>
                                                     Portfolio
                                                 </a>
                                             </Link>
@@ -352,7 +335,7 @@ class Navbar extends Component {
 
                                         <li className="nav-item">
                                             <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                <a className="nav-link nav-link-arvr" style={navLinkArvr} onClick={e => e.preventDefault()}>
                                                     Info <i class="fa fa-angle-down"></i>
                                                 </a>
                                             </Link>
@@ -360,19 +343,19 @@ class Navbar extends Component {
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/blog" activeClassName="active">
-                                                        <a className="nav-link">Blogs</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Blogs</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/media" activeClassName="active">
-                                                        <a className="nav-link">Media & Events</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Media & Events</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/#" activeClassName="active">
-                                                        <a className="nav-link">CSR</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>CSR</a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -394,7 +377,7 @@ class Navbar extends Component {
  
                                         <li className="nav-item">
                                             <Link href="/#">
-                                                <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                <a className="nav-link nav-link-arvr" style={navLinkArvr} onClick={e => e.preventDefault()}>
                                                     Support <i class="fa fa-angle-down"></i>
                                                 </a>
                                             </Link>
@@ -402,31 +385,31 @@ class Navbar extends Component {
                                             <ul className="dropdown-menu">
                                                 <li className="nav-item">
                                                     <Link href="/blog" activeClassName="active">
-                                                        <a className="nav-link">Verify Employee</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Verify Employee</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/single-blog" activeClassName="active">
-                                                        <a className="nav-link">Verify Certificate</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Verify Certificate</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
-                                                    <Link href="/project-status" activeClassName="active">
-                                                        <a className="nav-link">Project Status</a>
+                                                    <Link href="/support" activeClassName="active">
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Project Status</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/single-service" activeClassName="active">
-                                                        <a className="nav-link">Grievance Board</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Grievance Board</a>
                                                     </Link>
                                                 </li>
 
                                                 <li className="nav-item">
                                                     <Link href="/contact" activeClassName="active">
-                                                        <a className="nav-link">Contact</a>
+                                                        <a className="nav-link nav-link-arvr" style={navLinkArvr}>Contact</a>
                                                     </Link>
                                                 </li>
                                             </ul>
@@ -528,4 +511,4 @@ class Navbar extends Component {
     }
 }
 
-export default Navbar;
+export default NavbarTwo;

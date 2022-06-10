@@ -6,10 +6,12 @@ import Footer from '../components/Layouts/Footer';
 import ContactUs from '../components/Arvr/Contactus';
 import LearnMore from '../components/Arvr/LearnMore';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
+import ArvrBanner2 from '../components/Arvr/ArvrBanner2';
 
-class Arvr extends Component {
+class Arvr2 extends Component {
     
     render() {
+
         const divStyle = {
             // width: '100%',
             height: '100%',
@@ -20,26 +22,23 @@ class Arvr extends Component {
         const navStyle = {
             background: `url({'../public/images/arvrbanner.jpg'})`,
         }
-        
 
         return (
-            <section className='arvr' style={divStyle} >
-                {/* <NavbarFour style={navStyle} /> */}
+            <>
                 <NavbarTwo  />
 
-                <ArvrBanner className='arvr' style={divStyle} />
+                <ArvrBanner2 />
 
                 <WhyWork style={divStyle} />
 
                 <LearnMore />
-                
+
                 <ContactUs className='arvr' />
 
                 <Footer />
-
-            </section>
-        );
+            </>
+        )
     }
-}
+};
 
-export default Arvr;
+export default Arvr2;

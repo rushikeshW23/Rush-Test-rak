@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 // import './MlAiOurServices.css';
+import {BsFillPlayCircleFill} from 'react-icons/bs';
+import {FaGithub} from 'react-icons/fa';
+import { IconContext } from "react-icons";
 
 class MlAiBanner extends Component {
     render() {
         return (
-            <section className="pt-100">
+            <section>
                 <div className="container">
+                    <div className='header__socials'>
+                        <a href='https://linkedin.com' rel="noreferrer" target="_blank">WATCH OUR VIDEO</a>
+                    </div>
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-12">
                             <div className="mlai-area-content">
@@ -28,6 +34,10 @@ class MlAiBanner extends Component {
                                 <img src="/images/ml-ai-banner.jpeg" alt="image" />
                             </div>
                         </div>
+                        <div id="section09" class="demo">
+                        {/* <p>Scroll Down Button #9</p> */}
+                        <a href="#connect"><span></span>scroll</a>
+                    </div>
                     </div>
                     <div className='ml-ai-social'>
                         <div className='team-section team-item-area'>
@@ -48,10 +58,16 @@ class MlAiBanner extends Component {
                                             <i className="fab fa-twitter"></i>
                                         </a>
                                     </li>
-                                    <li>
+                                    <li >
                                         <a href="https://www.instagram.com/" target="_blank">
                                             <i className="fab fa-instagram"></i>
                                         </a>
+                                    </li>
+                                    <li>
+                                         <strong>-----------------------</strong>
+                                    </li>
+                                    <li>
+                                         <strong>  FOLLOW US</strong>
                                     </li>
                                 </ul>
                             </div>

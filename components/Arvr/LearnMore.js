@@ -33,9 +33,9 @@ class LearnMore extends Component {
                                 <div style={{margin: "20px"}}> 
                                     <div className='learn-more-grid'>
                                         <i className="fa fa-users learn-more-icon" aria-hidden="true"></i>
-                                        <h1>10</h1>
-                                        <p>Players</p>
-                                        <p>Full body Mode</p>
+                                        <h1 className='learn-more-icon-content-h1' >10</h1>
+                                        <p className='learn-more-icon-content-p'>Players</p>
+                                        <p className='learn-more-icon-content-p'>Full body Mode</p>
                                     </div>
                                 </div>
                             </Col>
@@ -43,9 +43,9 @@ class LearnMore extends Component {
                                 <div style={{margin: "20px"}}> 
                                     <div className='learn-more-grid'>
                                         <i className="fa fa-users learn-more-icon" aria-hidden="true"></i>
-                                        <h1>10</h1>
-                                        <p>Players</p>
-                                        <p>Full body Mode</p>
+                                        <h1 className='learn-more-icon-content-h1'>10</h1>
+                                        <p className='learn-more-icon-content-p'>Players</p>
+                                        <p className='learn-more-icon-content-p'>Full body Mode</p>
                                     </div>
                                 </div>
                             </Col>
@@ -53,9 +53,9 @@ class LearnMore extends Component {
                                 <div style={{margin: "20px"}}> 
                                     <div className='learn-more-grid'>
                                         <i className="fa fa-users learn-more-icon" aria-hidden="true"></i>
-                                        <h1>10</h1>
-                                        <p>Players</p>
-                                        <p>Full body Mode</p>
+                                        <h1 className='learn-more-icon-content-h1'>10</h1>
+                                        <p className='learn-more-icon-content-p'>Players</p>
+                                        <p className='learn-more-icon-content-p'>Full body Mode</p>
                                     </div>
                                 </div>
                             </Col>
@@ -63,9 +63,9 @@ class LearnMore extends Component {
                                 <div style={{margin: "20px"}}> 
                                     <div className='learn-more-grid'>
                                         <i className="fa fa-users learn-more-icon" aria-hidden="true"></i>
-                                        <h1>10</h1>
-                                        <p>Players</p>
-                                        <p>Full body Mode</p>
+                                        <h1 className='learn-more-icon-content-h1'>10</h1>
+                                        <p className='learn-more-icon-content-p'>Players</p>
+                                        <p className='learn-more-icon-content-p'>Full body Mode</p>
                                     </div>
                                 </div>
                             </Col>

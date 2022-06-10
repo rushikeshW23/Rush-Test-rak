@@ -14,23 +14,22 @@ class ContactUs extends Component {
             borderTop: "0px",
             borderLeft: "0px",
             borderRight: "0px",
-            borderBottom: "1px solid black",
+            borderBottom: "1px solid white",
             outline: 0,
             borderRadius: "5px",
             transition: "all .3s ease",
-            background: "white",
             // backgroundImage: `url({'../public/images/arvrbanner.jpg'})`
             backgroundColor: "black"
           };
 
         return (
-                <section style={{background: "b"}} >
-                    <div className='container  arvr-contactform pt-100' style={{justifyContent: "center", alighItems: "center", textAlign: "center", margin: "auto"}} >
-                        <h1>Get <strong>Started Now</strong></h1>
+                <section style={{background: "black"}} >
+                    <div className='container  arvr-contactform pt-100' style={{justifyContent: "center", alignItems: "center", textAlign: "center", margin: "auto"}} >
+                        <h1 style={{color: "white" , fontFamily: "Montserrat, sans-serif"}} >Get <strong>Started Now</strong></h1>
                         <p>Interested in Partner with us ? Then get in touch</p>
 
                         {/* <ContactForm /> */}<div></div>
-                        <div className="col-lg-6 col-md-6 pb-100  "  style={{margin: "auto"}} >  
+                        <div className="col-lg-6 col-md-6 pb-100 "  style={{margin: "auto"}} >  
                         {/* //col-lg-6 col-md-6  */}
                         {/* <form onSubmit={handleSubmit} className="contact-form"> */}
                         <form className="contact-form" style={{justifyContent: "center", alighItems: "center", textAlign: "center"}} >
