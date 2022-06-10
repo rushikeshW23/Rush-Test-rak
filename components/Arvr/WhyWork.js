@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon ,  } from '@fortawesome/react-fontawesome'
-
+import { GrOptimize } from 'react-icons/gr';
+import {SiRoamresearch} from 'react-icons/si'
+import { IconContext } from "react-icons";
 
 class WhyWork extends Component {
     render() {
@@ -10,11 +11,18 @@ class WhyWork extends Component {
                     <h1 style={{color:"white"}} >Why Work With us</h1>
                     <p>publishing and graphic design, Lorem ipsum is a placeholder text commonly used to </p>
                     <p>demonstrate the visual form of a document or a typeface without relying on meaningful</p>
+
                     <div style={{display: "flex", justifyContent: "center", alignContent: "center", padding: "1rem" , flexWrap: "wrap" }} >
                        <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
                             <div style={{margin: "20px"}}>
                                 <div class="hexagon">
-                                    <span><FontAwesomeIcon icon="fa-dark fa-arrow-up-right-dots" /></span>
+                                    <span>
+                                        <IconContext.Provider value={{ color: "black", size: "3rem", className: "global-class-name" }}>
+                                            <div>
+                                                <GrOptimize />
+                                            </div>
+                                        </IconContext.Provider>
+                                    </span>
                                 </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
@@ -23,20 +31,34 @@ class WhyWork extends Component {
                             </div>
                         </div>
                         <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
-                        <div style={{margin: "20px"}}>
-                            <div class="hexagon">
-                                <span><FontAwesomeIcon icon="fa-dark fa-arrow-up-right-dots" /></span>
-                            </div>
+                            <div style={{margin: "20px"}}>
+                                <div class="hexagon">
+                                    <span>
+                                        <IconContext.Provider value={{ color: "black", size: "3rem", className: "global-class-name" }}>
+                                            <div>
+                                                <GrOptimize />
+                                            </div>
+                                        </IconContext.Provider>
+                                    </span>
+                                </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
                                 <strong  >Massive Scale</strong>
-                                <div style={{textAlign: "center"}} >In publishing and graphic design</div>
-                            </div>
+                                <div style={{textAlign: "center"}} >
+                                    In publishing and graphic design
+                                </div>
+                        </div>
                         </div>
                         <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
                         <div style={{margin: "20px"}}>
                             <div class="hexagon">
-                                <span><FontAwesomeIcon icon="fa-dark fa-arrow-up-right-dots" /></span>
+                                <span>
+                                    <IconContext.Provider value={{ color: "black", size: "3rem", className: "global-class-name" }}>
+                                        <div>
+                                            <SiRoamresearch />
+                                        </div>
+                                    </IconContext.Provider>
+                                </span>
                             </div>
                             </div>
 
@@ -48,7 +70,13 @@ class WhyWork extends Component {
                         <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
                         <div style={{margin: "20px"}}>
                             <div class="hexagon">
-                                <span></span>
+                                <span>
+                                    <IconContext.Provider value={{ color: "black", size: "3rem", className: "global-class-name" }}>
+                                        <div>
+                                            <GrOptimize />
+                                        </div>
+                                    </IconContext.Provider>
+                                </span>
                             </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>

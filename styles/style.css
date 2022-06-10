@@ -6396,6 +6396,7 @@ MlAi Service
   left: 0;
   bottom: 15rem;
   transform: rotate(90deg);
+  text-decoration: none;
 }
 
 .header__socials::after{
@@ -6580,7 +6581,7 @@ ARVR Banner
   position: relative;
   width: 100px; 
   height: 57.74px;
-  /* background-color: #000000; */
+  background-color: white;
   margin: 28.87px 0;
   /* box-shadow: 0 0 20px rgba(2,141,227,0.95); */
   border-left: solid 6px #0816dd;
@@ -6681,10 +6682,6 @@ ARVR Banner
 }
 
 .learn-more-icon-content-p {
-  color: white;
-}
-
-.fa-users {
   color: white;
 }
 
