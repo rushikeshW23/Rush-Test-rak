@@ -8,12 +8,12 @@ class WhyWork extends Component {
         return (
             <section className='pb-100 pt-100' style={{background: "black"}}>
                 <div className='container whywork-container'>
-                    <h1 style={{color:"white"}} >Why <span className='fancy fancy--underline' > work </span>with us</h1>
+                    <h1 style={{color:"white"}} >Why <span className='fancy fancy--underline'>work</span> with us</h1>
                     <p>publishing and graphic design, Lorem ipsum is a placeholder text commonly used to </p>
                     <p>demonstrate the visual form of a document or a typeface without relying on meaningful</p>
 
-                    <div style={{display: "flex", justifyContent: "center", alignContent: "center", padding: "1rem" , flexWrap: "wrap" }} >
-                       <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
+                    <div className="whywork-container-icons">
+                       <div className='whywork-container-icons-div1'>
                             <div style={{margin: "20px"}}>
                                 <div class="hexagon">
                                     <span>
@@ -26,11 +26,11 @@ class WhyWork extends Component {
                                 </div>
                             </div>
                             <div style={{paddingTop: "2rem"}}>
-                                <strong style={{color: "white" }}  >Massive Scale</strong>
+                                <strong style={{color: "white" }}>Massive Scale</strong>
                                 <div style={{textAlign: "center" , color: "white"}} >In publishing and graphic design</div>
                             </div>
                         </div>
-                        <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
+                        <div className='whywork-container-icons-div1'>
                             <div style={{margin: "20px"}}>
                                 <div class="hexagon">
                                     <span>
@@ -49,7 +49,7 @@ class WhyWork extends Component {
                                 </div>
                         </div>
                         </div>
-                        <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
+                        <div className='whywork-container-icons-div1' >
                         <div style={{margin: "20px"}}>
                             <div class="hexagon">
                                 <span>
@@ -67,7 +67,7 @@ class WhyWork extends Component {
                                 <div style={{textAlign: "center" , color: "white"}} >In publishing and graphic design</div>
                             </div>
                         </div>
-                        <div style={{justifyContent: "center", alignContent: "center", padding: "20px"}} >
+                        <div className='whywork-container-icons-div1' >
                         <div style={{margin: "20px"}}>
                             <div class="hexagon">
                                 <span>

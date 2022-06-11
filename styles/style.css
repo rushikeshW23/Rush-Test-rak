@@ -6539,42 +6539,48 @@ ARVR Banner
 .arvr-banner-section {
   height: 100%;
   width: 100%;
-  /* background: white; */
   background-image: url('/images/arvrbanner.jpg');
   background-size: cover;
   color: white;
-  /* box-sizing: border-box;
-  min-height: 100vh;
-  position: relative;
-  transform-style: inherit;
-  width: 100vw;
-  text-align: center;
-  text-transform: uppercase; */
+  overflow: hidden;
 }
 
-/* .arvr-banner-section:before {
-  background: 50% 50% / cover;
-} */
+.arvr-banner-section-content {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  margin: 2rem;
+}
 
-/* .arvr-banner-section::before {
-  content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: block;
-    background-image: url('/images/arvrbanner.jpg');
+@media (min-width: 601px) {
+  .arvr-banner-section {
+    background: url('/images/arvrbanner.jpg');
     background-size: cover;
-    transform-origin: center center 0;
-    transform: translateZ(-1px) scale(2);
-    z-index: -1;
-    min-height: 100vh; 
-} */
+  }
+}
+
+@media (max-width: 600px) {
+  .arvr-banner-section {      
+     background: url('/images/arvrbanner-mobile.jpg');
+     background-size: cover;
+  }
+}
+
+.whywork-container-icons{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.whywork-container-icons-div1 {
+  justify-content: center;
+  align-content: center;
+  padding: 20px;
+}
 
 .arvr {
-  background-image: url('/images/arvrbanner.jpg');
-  
+  background-image: url('/images/arvrbanner.jpg'); 
 }
 
 .arvr-container h1 p {
