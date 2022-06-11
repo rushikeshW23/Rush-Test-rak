@@ -25,7 +25,7 @@ class ContactUs extends Component {
         return (
                 <section style={{background: "black"}} >
                     <div className='container  arvr-contactform pt-100' style={{justifyContent: "center", alignItems: "center", textAlign: "center", margin: "auto"}} >
-                        <h1 style={{color: "white" , fontFamily: "Montserrat, sans-serif"}} >Get <strong>Started Now</strong></h1>
+                        <h1 style={{color: "white" , fontFamily: "Montserrat, sans-serif"}} >Get <span className='fancy fancy--underline' >Started</span> Now</h1>
                         <p>Interested in Partner with us ? Then get in touch</p>
 
                         {/* <ContactForm /> */}<div></div>

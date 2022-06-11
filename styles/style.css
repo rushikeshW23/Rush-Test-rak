@@ -1067,7 +1067,7 @@ Navbar Area Two CSS
 }
 
 .nav-link-arvr{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 
@@ -6528,16 +6528,21 @@ ARVR Banner
   text-align: center;
   align-items: center;
   padding: 3rem;
+  color: white;
 }
 
 .arvr-banner-top h1 p {
   padding: 3rem;
+  color: white;
 }
 
 .arvr-banner-section {
   height: 100%;
   width: 100%;
-  /* background-image: url('/images/arvrbanner.jpg'); */
+  /* background: white; */
+  background-image: url('/images/arvrbanner.jpg');
+  background-size: cover;
+  color: white;
   /* box-sizing: border-box;
   min-height: 100vh;
   position: relative;
@@ -6712,5 +6717,25 @@ ARVR Banner
 .learn-more-icon-content-p {
   color: white;
 }
+
+.fancy {
+  background-image: linear-gradient(to right, #e3202d, white , #e3202d);
+  background-position: 0px 95%;
+  transition: background-size 0.5s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+  padding: 0.1% 0px;
+  background-repeat: no-repeat;
+}
+
+.fancy--underline {
+  background-size: 0px 5px;
+  background-size: 100% 3px;
+  font-size: 4rem;
+}
+
+.fancy-vr {
+  font-size: 11rem;
+}
+/* .fancy--underline:hover {
+} */
 
 /*# sourceMappingURL=style.css.map */

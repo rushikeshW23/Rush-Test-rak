@@ -8,7 +8,7 @@ class WhyWork extends Component {
         return (
             <section className='pb-100 pt-100' style={{background: "black"}}>
                 <div className='container whywork-container'>
-                    <h1 style={{color:"white"}} >Why Work With us</h1>
+                    <h1 style={{color:"white"}} >Why <span className='fancy fancy--underline' > work </span>with us</h1>
                     <p>publishing and graphic design, Lorem ipsum is a placeholder text commonly used to </p>
                     <p>demonstrate the visual form of a document or a typeface without relying on meaningful</p>
 

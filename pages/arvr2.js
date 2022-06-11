@@ -7,6 +7,8 @@ import ContactUs from '../components/Arvr/Contactus';
 import LearnMore from '../components/Arvr/LearnMore';
 import NavbarTwo from '../components/Layouts/NavbarTwo';
 import ArvrBanner2 from '../components/Arvr/ArvrBanner2';
+import { ParallaxProvider  } from 'react-scroll-parallax';
+// import {arvrbanner} from '../public/images/arvrbanner.jpg';
 
 class Arvr2 extends Component {
     
@@ -25,9 +27,11 @@ class Arvr2 extends Component {
 
         return (
             <>
-                <NavbarTwo style={navStyle}  />
+                <NavbarTwo />
 
-                <ArvrBanner2 style={navStyle} />
+                {/* <ParallaxProvider> */}
+                    <ArvrBanner2 style={navStyle} />
+                {/* </ParallaxProvider> */}
 
                 <WhyWork />
 
